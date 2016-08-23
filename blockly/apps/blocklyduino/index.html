@@ -16,11 +16,11 @@
 
     <nav>
         <div class="nav-wrapper blue-grey darken-4">
-            <a href="./" class="brand-logo">BlocklyDuino Editor</a>
+            <a href="./" class="brand-logo">Sumo Robot League Blockly Editor</a>
             <ul class="right show-on-small">
-                <li><a class="tooltipped" href="https://chrome.google.com/webstore/detail/blocklyduino-editor/ohncgafccgdbigbbikgkfbkiebahihmb" target="_blank" id="get-app" data-tooltip="I am tooltip"><i class="material-icons">get_app</i></a>
-                </li>
-                <li><a class="tooltipped" href="http://lets.makewitharduino.com" target="_blank" id="go-to-sample" data-tooltip="I am tooltip"><i class="material-icons">receipt</i></a>
+               <!--  <li><a class="tooltipped" href="https://chrome.google.com/webstore/detail/blocklyduino-editor/ohncgafccgdbigbbikgkfbkiebahihmb" target="_blank" id="get-app" data-tooltip="I am tooltip"><i class="material-icons">get_app</i></a>
+                </li> -->
+                <li><a class="tooltipped" href="http://www.sumorobotleague.com" target="_blank" id="go-to-sample" data-tooltip="I am tooltip"><i class="material-icons">info_outline</i></a>
                 </li>
                 <li><a class="waves-effect waves-light modal-trigger tooltipped" id="change-lang" href="#modal1" data-tooltip="I am tooltip"><i class="material-icons">settings</i></a>
                 </li>
@@ -168,9 +168,9 @@
                 <table id="tab">
                     <tr id="tabRow">
                         <td id="tab_blocks" class="tabon " onclick="tabClick('blocks')">Blocks</td>
-                        <td class="tabmin"> </td>
-                        <td id="tab_arduino" class="taboff" onclick="tabClick('arduino')"></td>
-                        <td class="tabmin"> </td>
+                        <td class="tabmin">|</td>
+                        <td id="tab_arduino" class="taboff" onclick="tabClick('arduino')">Arduino</td>
+                        <td class="tabmin"> </td>
                         <td class="tabmax">
                             <a href="#" class="hide-link tooltipped" id="copy-button" data-tooltip="I am tooltip" data-clipboard-target="content_arduino" data-clipboard-text="Clip Me!"><i class="small material-icons">content_copy</i></a>
                             <a href="#" class="hide-link tooltipped" id="discard" onclick="discard()" data-tooltip="I am tooltip"><i class="small material-icons">delete</i></a>
@@ -755,14 +755,14 @@
         </block>
         <block type="shield_bot_readsensor"></block>
     </category>
-    <category id="category_aerobot">
+    <!-- <category id="category_aerobot">
         <block type="aerobot_move"></block>
         <block type="aerobot_rotate"></block>
         <block type="aerobot_lightsens"></block>
         <block type="aerobot_distsens"></block>
         <block type="aerobot_linesens"></block>
         <block type="aerobot_setled"></block>
-    </category>
+    </category>   -->
 </category>
 <category id="category_servo">
     <block type="servo_write">
