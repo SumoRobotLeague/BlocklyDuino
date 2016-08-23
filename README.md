@@ -1,4 +1,4 @@
-### Welcome to BlocklyDuino
+### Welcome to Sumo Robot League's fork of the BlocklyDuino fork of MakeWithArduino
 
 [![Join the chat at https://gitter.im/okhiroyuki/BlocklyDuino](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/okhiroyuki/BlocklyDuino?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -6,27 +6,17 @@ BlocklyDuino is a **web-based visual programming editor for [Arduino](http://www
 
 BlocklyDuino is based on [Blockly](https://developers.google.com/blockly/), the web-based, graphical programming editor. Provide static type language blocks and code generators for Arduino programming.
 
-BlocklyDuino also support [Grove](http://www.seeedstudio.com/wiki/GROVE_System) blocks to easily get started with microcontroller-based experimentation and learning.
 
 [We also have Google+ Page](https://plus.google.com/111979846292233941175).
 
 ### Features
 
-* Programming Arduino with visually drag and drop code blocks
+* Programming Arduino with visual drag and drop blocks 
 * Generate fully compatible Arduino source code
-* Interacive Arduino board with 10+ predefined Grove sensor blocks
-* Load different on-site examples with url parameters
 
 ### Demo
 
-BlocklyDuino is a web tool. You can give it a try at
-[Web](http://www.gasolin.idv.tw/public/blockly/apps/blocklyduino/index.html) to see the working BlocklyDuino.
-
-You can link directly to examples
-* [demo 1](http://www.gasolin.idv.tw/public/blockly/apps/blocklyduino/index.html?url=/public/blockly/demos/blocklyduino/examples/blink.xml)
-* [demo 2](http://www.gasolin.idv.tw/public/blockly/apps/blocklyduino/index.html?url=/public/blockly/demos/blocklyduino/examples/servo_potentio.xml)
-
-Or watch the [video demo](http://www.youtube.com/watch?v=_swiyXcUvNY)
+We hope to have a demo online soon, but you can still...
 
 ### Run locally on your web browser
 
@@ -61,16 +51,16 @@ Check changelog [here](https://github.com/gasolin/BlocklyDuino/blob/master/CHANG
 
 ### Authors and Contributors
 Fred Lin (@gasolin) .
-
 Thanks Neil Fraser, Q.Neutron from Blockly https://developers.google.com/blockly/
 Thanks Dale Low (gumbypp) for contribute the python server to pipe BlocklyDuino source to arduino board.
 Thanks Arduino and Seeeduino guys for Arduino and Grove blocks.
+Thanks okhiroyuki for developing the MakeWithArduino fork
 
 The project is also inspired by [arduiblock](https://github.com/taweili/ardublock) and [modkit](http://www.modk.it/)
 
 ### License
 
-Copyright (C) 2012~2015 Fred Lin gasolin+blockly@gmail.com
+Copyright (C) 2016 Sumo Robot League  [web] www.sumorobotleague.com
 
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
